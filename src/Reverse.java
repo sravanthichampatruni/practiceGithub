@@ -4,7 +4,7 @@ public class Reverse {
         String rev = "";
         int len = s.length();
          System.out.println("loop starts");
-        for (int i = len-1;len>0; len--){
+        for (int i = len-1;len>0; len++){
             rev = rev+ s.charAt(i);
         }
         System.out.println(rev);
