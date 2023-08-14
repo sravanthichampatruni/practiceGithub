@@ -5,7 +5,6 @@ public class reverse {
         int len = s.length();
         for (int i = len-1;len>0; len--){
             rev = rev+ s.charAt(i);
-
         }
         System.out.println(rev);
     }
